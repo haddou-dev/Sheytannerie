@@ -1,0 +1,84 @@
+:root {
+    --background-call-us-container: #FBEFDF;
+    --background-color-app: #0E5244;
+    --background-container-number: #FBEFDF;
+    --color-orange: #F89800;
+    --padding: 5px;
+    --margin: 5px;
+    --margin-nav-items: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+}
+  
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-50 {
+    flex: 50%;
+}
+
+.flex-100 {
+    flex: 100%;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-center-vertical {
+    align-items: center;
+    align-content: center;
+}
+
+.flex-center-horizontal {
+    justify-content: center;
+    justify-items: center;
+}
+
+.flex-end-horizontal {
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+
+.width-match-parent {
+    width: 100%; 
+}
+
+.height-match-parent {
+    width: 100%;
+}
+
+.width-wrap-content {
+    width: fit-content;
+}
+

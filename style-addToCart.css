@@ -1,0 +1,345 @@
+#myDIV1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_box {
+    flex-wrap: 1;
+}
+
+.item{
+    height:100px;
+    width: auto;
+    margin:10px 30px;
+    background-color: #02130B;
+    border-radius:20px ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+.items{
+    overflow-y: scroll;
+    flex: 100%;
+}
+
+.items::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+  }
+  
+  .items::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #a5aaad;
+    border-radius: 10px;
+  }
+  
+  .items::-webkit-scrollbar-thumb {
+    background: #0E5244;
+    border-radius: 10px;
+  }
+  
+  .items::-webkit-scrollbar-thumb:hover {
+    background: #0e6353;
+  }
+
+
+.image_item{
+    max-width: 100px;
+    margin-right: 10px;
+}
+.div_image_item{
+    flex: 1;
+}
+.div_Num_item{
+    flex: 1;
+}
+.div_Nom_item{
+    flex: 2;
+    text-align: start;
+}
+.div_Remove_item{
+    flex:  0.5;
+}
+.div_Price_item{
+    flex:1;
+    text-align: center;
+}
+.div_footer{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #02130B;
+    flex-wrap: 2;
+}
+.div_footer_total{
+    padding: 20px 80px 10px 80px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.line{
+    height: 2px;
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+}
+.div_footer_para
+{
+    color: rgb(87, 87, 87);
+    margin: 5px;
+}
+.div_footer_Total
+{
+    color: rgb(255, 255, 255);
+}
+.div_footer_button{
+    width: 100%;
+    align-self:center ;
+    background-color:#0E5244 ;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-top: 10px;
+    border: none;
+    height: 42px;
+    outline: none;
+    cursor: pointer;
+}
+/* Div 2 */
+.footer_commande{
+    margin-top: 0px;
+}
+
+.Title_reserv{
+    font-size: 18px;
+    width: 280px;
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+}
+.div_footer_para {
+    font-size: 15px;
+}
+.div_logo_commande{
+    margin: 15px 0px;
+}
+
+.div_logo_commande img {
+    width: 200px;
+}
+
+.container{
+    margin:20px 50px ;
+}
+.inputs{
+    margin-top: 30px;
+}
+.input_text{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 15px;
+    border: 1px solid #707070;
+    height: 45px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    width:100%
+}
+.textarea{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 15px;
+    border: 1px solid #707070;
+    height: 150px;
+    padding: 10px 20px;
+    width:100%
+}
+.iconright{
+    width: 20px;
+    height: 20px;
+    float: right;
+    cursor: pointer;
+}
+.iconleft{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+/*Fin Div 2 */
+/* Div 3 */
+.circel1{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    background-color: #072922;
+    border-radius: 50%;
+    margin:40px 0px ;
+}
+.circel2{
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-items: center;
+    background-color: #09332b;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.circel3{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    opacity: 1;
+    background-color:#0E5244;
+    border-radius: 50%;
+    z-index: 2;
+}
+.container_done{
+    margin:30px 20px ;
+    display: grid;
+    place-items: center;
+}
+
+.container_done > img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.container_done h1 {
+    width: 250px;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.container_done p {
+    font-size: 13px;
+}
+/*Fin Div 3 */
+.div_MesCommandes{
+margin: 0px 30px 20px 30px;
+font-size: 18px;
+}
+.div_icon{
+    padding: 20px;
+}
+.myDIVclose{
+    width: 0px;/* hadi dirha 0 */
+    height: 100vh;
+    background-color: #010E07;
+    position:absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    overflow: hidden;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.myDIVopen{
+    width: 490px;/* hadi dirha 0 */
+    height: 100vh;
+    background-color: #010E07;
+    position:absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    overflow: hidden;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.icon_remove_item{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/************** Width screen 600px *******************/
+
+@media only screen and (max-width: 600px) {
+    /* Div 3 */
+.circel1{
+    width: 300px;
+    height: 300px;
+}
+.circel2{
+    width: 220px;
+    height: 220px;
+}
+.circel3{
+    width: 150px;
+    height: 150px;
+}
+.img_happy{
+    width: 100px;
+    height: 100px;
+}
+.iconright{
+    width: 15px;
+    height: 15px;
+}
+.container_done{
+    margin:15px 10px ;
+}
+/*Fin Div 3 */
+    .Title_reserv{
+        font-size: 18px;
+    }
+    .div_logo_commande{
+        margin: 5px 0px 0px 0px;
+        height: 100px ;
+        width: 100px;
+    }
+    .textarea{
+        height: 120px;
+    }
+    .container{
+        margin:10px 20px ;
+    }
+    .myDIVclose{
+        border-radius: 0px  ; 
+    }
+    .myDIVopen{
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px ; 
+    }
+
+    .div_footer{
+        margin-top: 25px;
+        border-radius: 30px 30px 0px 0px;
+    }
+    .div_footer_total{
+        padding: 10px 30px 10px 30px;
+    }
+
+    .line{
+        height: 1px;
+    }
+    .div_MesCommandes{
+    margin:  20px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    }
+    .item{
+        height:80px;
+        margin:10px 20px;
+        border-radius:10px ;
+    }
+    .image_item{
+        height: 80px;
+    }
+    .items{
+        max-height: 320px;
+    }
+
+    /* .myDIVopen{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    } */
+}
+
+@media screen and (max-width: 411px) {
+
+    .pra-pass-cmd {
+        font-size: 20px;
+    }
+    
+}
